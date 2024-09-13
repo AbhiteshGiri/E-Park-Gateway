@@ -5,7 +5,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./img/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <title>Navbar</title>
     <style>
@@ -27,7 +26,8 @@
         }
 
         .header {
-            padding: 0 4.8rem;
+            padding-left: 4.8rem;
+            padding-right: 25px;
             height: 10rem;
             display: flex;
             align-items: center;
@@ -48,7 +48,7 @@
             display: flex;
         }
 
-      
+
 
         .navbar-list {
             display: flex;
@@ -95,7 +95,7 @@
             padding: 9.6rem 0;
             background-color: #ffffff;
             height: 60vh;
-
+            display: none;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -109,12 +109,15 @@
         .section-services p {
             font-size: 3.2rem;
         }
-        img
-        {
+
+        img {
+            display: none;
+            cursor: pointer;
             width: 60px;
-            height:55%;
+            height: 55%;
             margin-top: 22px;
         }
+
         input[type=text] {
             width: 160px;
             height: 40px;
@@ -149,6 +152,36 @@
             background-color: white;
         }
 
+        name {
+            font-size: 21px;
+            font-family: sans-serif;
+            text-transform: capitalize;
+            font-weight: 600;
+            margin-top: 34px;
+            cursor: pointer;
+        }
+
+        .btn {
+            color: #ffffff;
+            background-color: #6498ff;
+            margin-left: 20px;
+            margin-top: 27px;
+            cursor: pointer;
+            width: auto;
+            border-radius: 4px;
+            height: fit-content;
+            padding: 10px 15px;
+            border: none;
+            outline: none;
+            font-size: 18px;
+            font-family: sans-serif;
+        }
+        a
+        {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 600;
+        }
         @media (max-width: 62em) {
             .mobile-navbar-btn {
                 display: block;
@@ -156,26 +189,54 @@
                 border: none;
                 color: #212529;
             }
-            .search
-            {
-                margin-left: 20px;
+
+            .header {
+                padding: 0 10px;
+            }
+
+            input[type=text] {
+                width: 140px;
+                font-size: 16px;
+            }
+
+            .fa-solid {
+                margin-left: 10px;
+            }
+
+            .btn {
+                margin-top: 25px;
+                margin-right: 20px;
+                font-size: 15px;
+                padding: 15px 10px;
+            }
+
+            .search {
+                width: 180px;
+                margin-left: 15px;
                 padding-right: 10px;
             }
-            .rgt
-            {
-                width: 8%;
+
+            .rgt {
+                width: 30%;
             }
-            .lft
-            {
-                width: 92%;
+
+            name {
+                display: none;
             }
+
+            .lft {
+                width: 62%;
+            }
+
             .header {
                 position: relative;
             }
 
             .header .logo {
-                width: 25%;
-                margin-left: -20px;
+                margin-top: 25px;
+                height: 45%;
+                width: 50px;
+                display: inline;
             }
 
             .navbar {
@@ -224,6 +285,10 @@
 <body>
     <header class="header">
         <div class="lft">
+            <name>
+                company garden
+
+            </name>
             <img src="./img/Gateway-modified.png" alt="Company garden logo" class="logo" />
             <span class="search">
                 <i class="fa-solid fa-magnifying-glass"></i>
@@ -237,10 +302,10 @@
                     <li><a class="navbar-link" href="#">About</a></li>
                     <li><a class="navbar-link" href="#">Services</a></li>
                     <li><a class="navbar-link" href="#">Gallery</a></li>
-                    <li>
-                    </li>
+                    <li><a class="navbar-link" href="#">Help</a></li>
                 </ul>
             </nav>
+            <button class="btn"><a href="signup.html">Join Us</a></button>
         </div>
 
         <div class="mobile-navbar-btn">
@@ -258,7 +323,6 @@
         const nav_header = document.querySelector(".header");
 
         const toggleNavbar = () => {
-            // alert("Plz Subscribe ");
             nav_header.classList.toggle("active");
         };
 
