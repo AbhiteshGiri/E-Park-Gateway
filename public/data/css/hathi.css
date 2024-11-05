@@ -4,3 +4,9 @@
 .custom-img{
     height: 100%;
 }
+.video-btn{
+    position: relative;
+    left: 600px;
+    bottom: 100px;
+    
+}
