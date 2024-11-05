@@ -10,7 +10,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "hbs": "^4.2.0"
   },
   "devDependencies": {
     "gh-pages": "^6.2.0"
