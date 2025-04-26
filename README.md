@@ -48,9 +48,8 @@ Welcome to **E-Park Gateway**, a smart, responsive web platform created to simpl
 
 
 
-👨‍💻 Developer
+👨‍💻 Developer Abhitesh
 
-Abhitesh
 🧑‍💻 Full Stack Developer | 🚀 Passionate about smart city solutions
 📫 abhiteshgiri325@gmail.com
 🌐 abhiteshgiri.github.io/Portfolio
