@@ -2,13 +2,13 @@
 
 Welcome to **E-Park Gateway**, a smart, responsive web platform created to simplify your park visits in **Prayagraj**. With this gateway, you can explore park information, book tickets online, and enjoy seamless digital support—all in one place.
 
-![E-Park Banner](https://yourbannerlink.com) <!-- Replace with actual banner if available -->
+![E-Park Banner](https://e-park-gateway.onrender.com/) <!-- Replace with actual banner if available -->
 
 ---
 
 ## 🔗 Live Website
 
-👉 [Visit E-Park Gateway](https://your-deployed-link.com)  
+👉 [Visit E-Park Gateway](https://e-park-gateway.onrender.com/)  
 👉 Deployed on: **Hostinger Premium**  
 👉 Database: **MongoDB Atlas** | Hosted Backend: **Render**
 
@@ -46,7 +46,10 @@ Welcome to **E-Park Gateway**, a smart, responsive web platform created to simpl
 
 ## 📂 Project Structure
 
+
+
 👨‍💻 Developer
+
 Abhitesh
 🧑‍💻 Full Stack Developer | 🚀 Passionate about smart city solutions
 📫 abhiteshgiri325@gmail.com
